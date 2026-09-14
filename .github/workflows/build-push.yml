@@ -3,7 +3,7 @@ name: Build and push base image
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - base.Dockerfile
   workflow_dispatch: {}
